@@ -34,20 +34,29 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- Axis2 核心依赖 -->
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
-            <version>1.8.2</version>
+            <version>1.8.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-transport-http</artifactId>
-            <version>1.8.2</version>
-        </dependency>
+        <!-- 数据传输绑定方式，下面会详述 -->
         <dependency>
             <groupId>org.apache.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
-            <version>1.8.2</version>
+            <version>1.8.0</version>
+        </dependency>
+        <!-- 传输协议支持 -->
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-http</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <!-- 本地调用传输发送器支持 -->
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-transport-local</artifactId>
+            <version>1.8.0</version>
         </dependency>
 
     </dependencies>
